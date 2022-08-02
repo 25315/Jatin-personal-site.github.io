@@ -1,0 +1,197 @@
+div.top{
+
+  text-align: center;          <!-- margin: 0 auto 0 auto ; can also be used for centring the elements of the div or any thing just do an experiment -->
+  background-color: pink;
+    padding: 20px;
+    border: 10px;
+    color: blue;         <!-- simply use this to change the color of the text anywhere regardless of the div or any other thing-->
+    width: 100%;
+
+    .over{
+      position: relative;
+      left: 150px;
+      width: 50px;
+      height: 250px;
+      top: 50px;
+    }
+    .under{
+      width: 50px;
+      height: 250px;
+      position: relative;
+      left: 0px;
+      top: 20px;
+    }
+     .span{                /* this is the change in the span in the iitpalakkad iit is span that it has different box other than the box of the palakkad.*/
+       font-style: Brush Script MT, Brush Script Std, cursive;
+       /*font-size: 150px;*/
+     }
+}
+.bottom-container{
+  position: relative;
+  top: 50px;
+}
+h1{
+  font-family: Brush Script MT, Brush Script Std, cursive;      /* the best font */
+  font-size: 600%;  // font size is also in the unit of rem that means ignore the parent sizes and set the size of the font to this new one without adding the parent size__________                 // 1em = 16px; and 100% size is also equal to 16px;
+
+  font-weight: 500;     // In % and em there is the case that if body has some size and after that the heading also has some size in the % and em then both the sizes are added and becomes more as before but this is not in the case of the px;
+  margin-block-end: 0px;     <!-- This is to reduce the space between the heading and the paragraph that is i'm jatin and the an student at iit pkd-->
+  margin-block-start: 0px;    // same as the above comment and very useful for better visiblity.
+
+}
+h2{
+  font-size: 75px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  text-align: center;
+  font-weight: 500;
+
+}
+.last{
+  color: blue;
+}
+p1{                // can also change the paragraph tag into heading tag to changer without changing the name of the tag in the paragraph...........
+   top-margin: 0px;
+  font-size: 25px;
+  font-family: Brush Script MT, Brush Script Std, cursive;     /* the new font style*/
+  margin-block-end: 0px;
+}
+.cloud2{
+  position: relative;
+    top: 150px;
+    right: 50px;
+}
+.over{
+  position: relative;
+  left: 100px;
+}
+.under{
+  position:relative;
+  right: 200px;
+}
+      div.skill-row1{
+        text-align: left;
+        width: 50%;
+        margin-left: 0;
+        height: auto;
+        position: relative;
+        top: 50px;
+
+      }
+      .profile{
+        text-align: center;
+      }
+      .profile-img{
+        border-radius: 50%;
+      }
+      div.skill-row{
+        text-align: left;
+        width: 50%;
+        position: relative;
+        left: 700px;
+      }
+      div.skills{
+        display: inline-block;
+        width: 100%;
+      }
+      .chal
+      {
+        border-radius: 50%;
+        float: left;
+        width: 250px;
+        height: 250px;
+        position: relative;
+      //  bottom: 100px;
+        margin-right: 30px;
+      }
+      .com
+      {
+        // this is used to make the image circular, If instead of the % we use the px
+        float: right;
+        border-radius: 50%;
+         }
+    /*  .backvideo{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+      }
+      @media (min-aspect-ratio: 16/9) {
+        .backvideo{
+          width: 100%;
+          height: auto;
+        }*/
+
+
+
+      p{
+      //  margin-block-end: 0px;
+        margin-block-start: 0px;
+        width: 100%;
+        height: 100%;
+      }
+      h3
+      {
+        margin-block-end: 0px;
+        margin-block-start: 0px;
+      //  line-height: 2;
+      width: 100%;
+      height: 100%;
+      }
+
+      /*.copyright{
+        width: 130px;
+        position: absolute;
+        right: 0;
+        background-color: skyblue;
+        font-size: 20px;
+      }*/
+      .copyright{
+        text-align: right;
+      }
+
+.top{
+  background-color: skyblue;
+}
+/*.code-skill-description{           // This is to make the left part of the image clear and can make the heading round around
+  clear: left;                    //  the image but not required in this website here so I am going to remove it .
+}                               // but it is important concept to learn understand...............................................
+*/
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #030303;
+  font-size: 33px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.contact-me{
+  text-align: center;
+}
+/*.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}*/
+.base{
+  background-color: skyblue;
+  text-align: center;
+  position: relative;
+  top: 22px;
+}
+.footer-link{
+  font-size: 30px;
+}
